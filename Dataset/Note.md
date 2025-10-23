@@ -1,1 +1,1 @@
-The origibal dataset used for evaluation is large in size and could not be uploaded here, however, please visit [this website](https://data.transportation.gov/Automobiles/Next-Generation-Simulation-NGSIM-Vehicle-Trajector/8ect-6jqj/about_data) to install the dataset on your system.
+The original dataset used for learning is large in size and thus could not be uploaded here, however, please visit [this website](https://data.transportation.gov/Automobiles/Next-Generation-Simulation-NGSIM-Vehicle-Trajector/8ect-6jqj/about_data) to export the dataset on your system.
