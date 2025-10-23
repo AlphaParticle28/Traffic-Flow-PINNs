@@ -229,5 +229,3 @@ Where:
 - $$\(\tau\)$$: Relaxation time constant
 
 ---
-
-**End of Document**
