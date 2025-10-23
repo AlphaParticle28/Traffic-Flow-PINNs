@@ -31,7 +31,7 @@ The project provides a complete workflow, from fetching and processing raw NGSIM
 PINNs-for-Traffic-State-Estimation/
 │
 ├── Dataset/
-│   └── Note.txt
+│   └── Note.md                                # Details about the dataset used
 │
 ├── Notebooks/
 │   ├── DataCleaning.ipynb                     # Fetches, cleans, and grids raw NGSIM data
