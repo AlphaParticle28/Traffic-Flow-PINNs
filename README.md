@@ -2,7 +2,7 @@
 
 A **physics-informed deep learning framework** for traffic state estimation, leveraging macroscopic traffic flow models (**LWR** and **ARZ**) to reconstruct traffic density and velocity from sparse sensor data.
 
-This project implements and evaluates **Physics-Informed Neural Networks (PINNs)** for reconstructing continuous traffic state fields (density and velocity) using the real-world **Next Generation Simulation (NGSIM)** dataset. This is a research paper implementation. To know more, visit [here](https://ieeexplore.ieee.org/document/9531557).
+This project implements and evaluates **Physics-Informed Neural Networks (PINNs)** for reconstructing continuous traffic state fields (density and velocity) using the real-world **Next Generation Simulation (NGSIM)** dataset. This is a research paper implementation. To know more, learn [here](https://ieeexplore.ieee.org/document/9531557).
 
 ---
 
