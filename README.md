@@ -31,8 +31,7 @@ The project provides a complete workflow, from fetching and processing raw NGSIM
 PINNs-for-Traffic-State-Estimation/
 │
 ├── Dataset/
-│   ├── 1-_US_101_Metadata_Documentation.pdf   # Metadata for the NGSIM US-101 dataset
-│   └── (peachtree_*.csv will be generated here)
+│   └── Note.txt
 │
 ├── Notebooks/
 │   ├── DataCleaning.ipynb                     # Fetches, cleans, and grids raw NGSIM data
