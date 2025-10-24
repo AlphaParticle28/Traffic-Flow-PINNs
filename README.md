@@ -197,13 +197,11 @@ The **extremely low physics residual** of the PINN-ARZ model indicates strong ad
 ### PINN Composite Loss Function
 
 The model minimizes:
-$$\[
-L_{\text{total}} = L_{\text{data}} + \lambda_{\text{physics}} \cdot L_{\text{physics}}
-\]$$
+$$\ L_{\text{total}} = L_{\text{data}} + \lambda_{\text{physics}} \cdot L_{\text{physics}}\ $$
 
 Where:
-- $$\(L_{\text{data}}\)$$: Mean Squared Error between predicted and observed data  
-- $$\(L_{\text{physics}}\)$$: Mean Squared Error of PDE residuals (physics consistency)
+- $$\ L_{\text{data}}\ $$: Mean Squared Error between predicted and observed data  
+- $$\ L_{\text{physics}}\ $$: Mean Squared Error of PDE residuals (physics consistency)
 
 ---
 
