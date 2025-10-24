@@ -207,7 +207,7 @@ Where:
 ### Lighthill-Whitham-Richards (LWR) Model
 
 **Physics Loss Function (Diffusion Equation):**
-$$\ f := frac{\partial \rho}{\partial t} + \frac{\partial Q(\rho)}{\partial x} - \epsilon \frac{\partial^2 \rho}{\partial x^2}$$
+$$\ f := \frac{\partial \rho}{\partial t} + \frac{\partial Q(\rho)}{\partial x} - \epsilon \frac{\partial^2 \rho}{\partial x^2}$$
 
 ### Aw-Rascle-Zhang (ARZ) Model Equations
 
