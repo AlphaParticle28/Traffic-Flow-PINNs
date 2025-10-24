@@ -204,6 +204,21 @@ Where:
 - $$\ L_{\text{physics}}\ $$: Mean Squared Error of PDE residuals (physics consistency)
 
 ---
+### Lighthill-Whitham-Richards (LWR) Model Equations
+
+**Governing Equations:**
+$$
+\rho_t + (Q(\rho))_x = \epsilon \rho_{xx},\quad t \in [0,3],\; x \in [0,1],
+$$
+$$
+Q(\rho) = \rho \cdot u_{\max}\left(1 - \frac{\rho}{\rho_{\max}}\right)\quad \text{(FD relation)},
+$$
+$$
+\rho(t,0) = \rho(t,1)\quad \text{(boundary condition 1)},
+$$
+$$
+\rho_x(t,0) = \rho_x(t,1)\quad \text{(boundary condition 2)}.
+$$
 
 ### Aw-Rascle-Zhang (ARZ) Model Equations
 
