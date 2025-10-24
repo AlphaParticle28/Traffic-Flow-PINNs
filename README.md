@@ -206,24 +206,15 @@ Where:
 ---
 ### Lighthill-Whitham-Richards (LWR) Model
 
-**Governing Equation:**
-$$\frac{\partial \rho}{\partial t} + \frac{\partial Q(\rho)}{\partial x} = \epsilon \frac{\partial^2 \rho}{\partial x^2}$$
-
-**Flux Function:**
-$$Q(\rho) = \rho u_{\max}\left(1 - \frac{\rho}{\rho_{\max}}\right)$$
-
-**Periodic Boundary Conditions:**
-
-$$\rho(t,0) = \rho(t,1)$$
-
-$$\frac{\partial \rho}{\partial x}(t,0) = \frac{\partial \rho}{\partial x}(t,1)$$
+**Physics Loss Function (Diffusion Equation):**
+$$\ f := frac{\partial \rho}{\partial t} + \frac{\partial Q(\rho)}{\partial x} - \epsilon \frac{\partial^2 \rho}{\partial x^2}$$
 
 ### Aw-Rascle-Zhang (ARZ) Model Equations
 
-**Conservation of Mass:**
+**Physics Loss Function 1 (Conservation of Mass):**
 $$\ f_1 := \frac{\partial \rho}{\partial t} + \frac{\partial (\rho u)}{\partial x} = 0 \$$
 
-**Momentum-like Equation:**
+**Phsyics Loss Function 2 (Momentum-like Equation):**
 $$\ f_2 := \frac{\partial (u + h(\rho))}{\partial t} + u \frac{\partial (u + h(\rho))}{\partial x} - \frac{U_{eq}(\rho) - u}{\tau} = 0 \$$
 
 Where:
