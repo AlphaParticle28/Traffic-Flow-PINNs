@@ -210,16 +210,16 @@ Where:
 ### Aw-Rascle-Zhang (ARZ) Model Equations
 
 **Conservation of Mass:**
-$$\f_1 := \frac{\partial \rho}{\partial t} + \frac{\partial (\rho u)}{\partial x} = 0\$$
+$$\ f_1 := \frac{\partial \rho}{\partial t} + \frac{\partial (\rho u)}{\partial x} = 0 \$$
 
 **Momentum-like Equation:**
-$$\(f_2 := \frac{\partial (u + h(\rho))}{\partial t} + u \frac{\partial (u + h(\rho))}{\partial x} - \frac{U_{eq}(\rho) - u}{\tau} = 0\)$$
+$$\ f_2 := \frac{\partial (u + h(\rho))}{\partial t} + u \frac{\partial (u + h(\rho))}{\partial x} - \frac{U_{eq}(\rho) - u}{\tau} = 0 \$$
 
 Where:
-- $$\(\rho(x,t)\)$$: Traffic density  
-- $$\(u(x,t)\)$$: Traffic velocity  
-- $$\(U_{eq}(\rho)\)$$: Equilibrium speed (learned by FDLearner)  
-- $$\(h(\rho)\)$$: Traffic pressure term  
-- $$\(\tau\)$$: Relaxation time constant
+- $$\ \rho(x,t)\ $$: Traffic density  
+- $$\ u(x,t)\ $$: Traffic velocity  
+- $$\ U_{eq}(\rho)\ $$: Equilibrium speed (learned by FDLearner)  
+- $$\ h(\rho)\ $$: Traffic pressure term  
+- $$\ \tau\ $$: Relaxation time constant
 
 ---
