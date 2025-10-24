@@ -204,14 +204,17 @@ Where:
 - $$\ L_{\text{physics}}\ $$: Mean Squared Error of PDE residuals (physics consistency)
 
 ---
-### Lighthill-Whitham-Richards (LWR) Model Equations
+### Lighthill-Whitham-Richards (LWR) Model
 
-**Governing Equations:**
+**Governing Equation:**
+$$\frac{\partial \rho}{\partial t} + \frac{\partial Q(\rho)}{\partial x} = \epsilon \frac{\partial^2 \rho}{\partial x^2}$$
 
-**Differential Equation: ** $$\ \rho_t + (Q(\rho))_x = \epsilon \rho_{xx},\quad t \in [0,3],\; x \in [0,1] \$$
-**Q value: **$$\ Q(\rho) = \rho \cdot u_{\max}\left(1 - \frac{\rho}{\rho_{\max}}\right)\quad \text{(FD relation)} \$$
-**Boundary Condition 1: ** $$\ \rho(t,0) = \rho(t,1)\quad \text{(boundary condition 1)} \$$
-**Boundary Condition 2: ** $$\ \rho_x(t,0) = \rho_x(t,1)\quad \text{(boundary condition 2)} \$$
+**Flux Function:**
+$$Q(\rho) = \rho u_{\max}\left(1 - \frac{\rho}{\rho_{\max}}\right)$$
+
+**Periodic Boundary Conditions:**
+$$\rho(t,0) = \rho(t,1)$$
+$$\frac{\partial \rho}{\partial x}(t,0) = \frac{\partial \rho}{\partial x}(t,1)$$
 
 ### Aw-Rascle-Zhang (ARZ) Model Equations
 
