@@ -207,14 +207,17 @@ Where:
 ### Lighthill-Whitham-Richards (LWR) Model
 
 **Physics Loss Function (Diffusion Equation):**
+
 $$\ f := \frac{\partial \rho}{\partial t} + \frac{\partial Q(\rho)}{\partial x} - \epsilon \frac{\partial^2 \rho}{\partial x^2}$$
 
 ### Aw-Rascle-Zhang (ARZ) Model Equations
 
 **Physics Loss Function 1 (Conservation of Mass):**
+
 $$\ f_1 := \frac{\partial \rho}{\partial t} + \frac{\partial (\rho u)}{\partial x} = 0 \$$
 
 **Phsyics Loss Function 2 (Momentum-like Equation):**
+
 $$\ f_2 := \frac{\partial (u + h(\rho))}{\partial t} + u \frac{\partial (u + h(\rho))}{\partial x} - \frac{U_{eq}(\rho) - u}{\tau} = 0 \$$
 
 Where:
