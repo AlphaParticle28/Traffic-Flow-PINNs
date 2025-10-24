@@ -223,7 +223,8 @@ $$\ f_2 := \frac{\partial (u + h(\rho))}{\partial t} + u \frac{\partial (u + h(\
 Where:
 - $$\ \rho(x,t)\ $$: Traffic density
 - $$\ Q(\rho\) $$: Traffic flux  
-- $$\ u(x,t)\ $$: Traffic velocity  
+- $$\ u(x,t)\ $$: Traffic velocity
+- $$\ \epsilon\ $$: Diffusion constant
 - $$\ U_{eq}(\rho)\ $$: Equilibrium speed (learned by FDLearner)  
 - $$\ h(\rho)\ $$: Traffic pressure term  
 - $$\ \tau\ $$: Relaxation time constant
