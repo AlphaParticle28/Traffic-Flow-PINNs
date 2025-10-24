@@ -213,6 +213,7 @@ $$\frac{\partial \rho}{\partial t} + \frac{\partial Q(\rho)}{\partial x} = \epsi
 $$Q(\rho) = \rho u_{\max}\left(1 - \frac{\rho}{\rho_{\max}}\right)$$
 
 **Periodic Boundary Conditions:**
+
 $$\rho(t,0) = \rho(t,1)$$
 
 $$\frac{\partial \rho}{\partial x}(t,0) = \frac{\partial \rho}{\partial x}(t,1)$$
