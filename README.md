@@ -221,7 +221,8 @@ $$\ f_1 := \frac{\partial \rho}{\partial t} + \frac{\partial (\rho u)}{\partial 
 $$\ f_2 := \frac{\partial (u + h(\rho))}{\partial t} + u \frac{\partial (u + h(\rho))}{\partial x} - \frac{U_{eq}(\rho) - u}{\tau} \$$
 
 Where:
-- $$\ \rho(x,t)\ $$: Traffic density  
+- $$\ \rho(x,t)\ $$: Traffic density
+- $$\ Q(\rho\) $$: Traffic flux  
 - $$\ u(x,t)\ $$: Traffic velocity  
 - $$\ U_{eq}(\rho)\ $$: Equilibrium speed (learned by FDLearner)  
 - $$\ h(\rho)\ $$: Traffic pressure term  
