@@ -101,7 +101,7 @@ contain normalized gridded data ($$\(x_{nd}, t_{nd}, rho_{nd}, u_{nd}, mask)\$$)
 |---------------|-------------|
 | **Architecture** | Fully-connected feedforward (8 layers × 20 neurons) |
 | **Input Features** | $$\(x\)$$ (normalized space), $$\(t\)$$ (normalized time) |
-| **Output Variables** | $$\(rho\)$$ (density), $$\(u\)$$ (velocity) |
+| **Output Variables** | $$\({rho\})$$ density, $$\(u\)$$ velocity |
 | **Activations** | Tanh |
 | **Optimizer** | Adam |
 | **Physics Law** | Aw-Rascle-Zhang (ARZ) second-order model |
