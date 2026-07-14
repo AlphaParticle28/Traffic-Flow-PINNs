@@ -1,4 +1,4 @@
-# 🚦 PINNs for Traffic State Estimation
+# PINNs for Traffic State Estimation
 
 A **physics-informed deep learning framework** for traffic state estimation, leveraging macroscopic traffic flow models (**LWR** and **ARZ**) to reconstruct traffic density and velocity from sparse sensor data.
 
@@ -6,7 +6,7 @@ This project implements and evaluates **Physics-Informed Neural Networks (PINNs)
 
 ---
 
-## 🌟 Project Overview
+## Project Overview
 
 This system addresses the challenge of **Traffic State Estimation (TSE)** by integrating fundamental traffic flow physics directly into a deep learning model.  
 By enforcing the **Lighthill-Whitham-Richards (LWR)** and **Aw-Rascle-Zhang (ARZ)** conservation laws as soft constraints, the model generates **physically consistent and accurate** estimations of traffic dynamics, even with sparse data.
@@ -15,7 +15,7 @@ The project provides a complete workflow, from fetching and processing raw NGSIM
 
 ---
 
-## 🔑 Key Capabilities
+## Key Capabilities
 
 - **Physics-Informed Traffic State Estimation** – Implements PINNs for both first-order (LWR) and second-order (ARZ) traffic flow models.  
 - **Fundamental Diagram Learning** – Includes a `FDLearner` module to learn the complex relationship between traffic density and velocity directly from data.  
@@ -25,7 +25,7 @@ The project provides a complete workflow, from fetching and processing raw NGSIM
 
 ---
 
-## 🗂️ Directory Structure
+## Directory Structure
 
 ```
 PINNs-for-Traffic-State-Estimation/
@@ -48,7 +48,7 @@ PINNs-for-Traffic-State-Estimation/
 
 ---
 
-## 💾 Workflow Description
+## Workflow Description
 
 ### 1. Data Processing & Gridding  
 **File:** `Notebooks/DataCleaning.ipynb`
@@ -95,7 +95,7 @@ contain normalized gridded data ($$\(x_{nd}, t_{nd}, rho_{nd}, u_{nd}, mask)\$$)
 
 ---
 
-## 🧮 Technical Architecture
+## Technical Architecture
 
 | **Property** | **Details** |
 |---------------|-------------|
@@ -109,7 +109,7 @@ contain normalized gridded data ($$\(x_{nd}, t_{nd}, rho_{nd}, u_{nd}, mask)\$$)
 
 ---
 
-## 📦 Prerequisites
+## Prerequisites
 
 ### System Requirements
 - Python 3.10+
@@ -146,7 +146,7 @@ Ensure you have an active internet connection when running the data cleaning not
 
 ---
 
-## 🚦 How to Run
+## How to Run
 
 ### Step 1 – Fetch and Process Data
 ```bash
@@ -166,7 +166,7 @@ This will:
 
 ---
 
-## 🏁 Key Features
+## Key Features
 
 | **Feature** | **Description** | **Benefit** |
 |--------------|-----------------|--------------|
@@ -177,7 +177,7 @@ This will:
 
 ---
 
-## 📈 Model Performance
+## Model Performance
 
 Validation Set Results:
 
@@ -192,7 +192,7 @@ The **extremely low physics residual** of the PINN-ARZ model indicates strong ad
 
 ---
 
-## 🔬 Technical Implementation
+## Technical Implementation
 
 ### PINN Composite Loss Function
 
