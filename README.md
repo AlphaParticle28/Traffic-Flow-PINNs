@@ -79,7 +79,7 @@ PINNs-for-Traffic-State-Estimation/
 
 ---
 
-## 📊 Data Management
+## Data Management
 
 ### Primary Dataset
 **NGSIM (Next Generation Simulation) Dataset** – Detailed real-world vehicle trajectories from “Peachtree Street” and “US-101”.
@@ -122,7 +122,7 @@ pip install torch pandas numpy requests scikit-learn matplotlib
 
 ---
 
-## 🛠️ Installation Instructions
+## Installation Instructions
 
 ### 1. Environment Setup
 ```bash
